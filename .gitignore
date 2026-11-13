@@ -1,0 +1,46 @@
+# Node / CAP
+node_modules/
+gen/
+*.db
+*.sqlite
+.cdsrc-private.json
+dist/
+
+# Build output
+mta_archives/
+*.mtar
+resources/
+
+# Logs / env
+*.log
+.env
+default-env.json
+
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Generated per machine by sapctl (absolute local paths) — never commit
+.claude/settings.json
+.claude/settings.local.json
+.mcp.json
+
+# Operator memory for this project (lives next to the code, not in the customer's repo)
+memory/
+
+# Secrets
+.env
+.env.*
+default-env.json
+.cdsrc-private.json
+.cf/
+
+# from the generator
+target/
+_out/
+.cds/
+default-*.json
+*_mta_build_tmp
+@cds-models
